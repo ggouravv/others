@@ -1,0 +1,325 @@
+
+|| Jai Shree Ram ||
+
+https://www.youtube.com/playlist?list=PLFe2L4qdtVpYnyuKs0q-eJ7nZLSFTc0nQ
+
+My Salesforce ORG old :: Jan 2023
+https://naresh3-dev-ed.develop.my.salesforce.com/home/home.jsp
+Email    : gouravbharadwaz@gmail.com
+UserName : gourav2812@cis.com
+Pwd : Gourav@2812
+
+
+My Salesforce ORG New :: July 2024
+https://q3technologies-dev-ed.develop.lightning.force.com/lightning/page/home
+
+Email    : gouravbhardwaz@gmail.com
+UserName : gouravbhardwajjune@gmail.com
+Password : Gouravjune@2024,GouravSFDC@2024
+
+Git Repo   :: lwcbootcampjuly
+Local Path :: C:\Users\Admin\Desktop\JaiShreeRam\LWC\July_Ankit\bootcamp 
+
+cmd ::
+
+sfdx cli
+java - https://mkyong.com/java/how-to-set-java_home-on-windows-10/
+git
+node js - using node-v20.15.1-x64.msi
+vs code (salesforce extension pack -16)
+
+
+
+https://github.com/Dogeforce
+
+------------------------------------------
+Out of the box
+
+1). component-library - https://developer.salesforce.com/docs/component-library/overview/components
+2). SLDS 
+3). SFDX Developer guide
+4). LWC Recipes  - https://github.com/trailheadapps/lwc-recipes
+
+Var   - support for old browser
+Let   -
+Const - if value should not be change and also type should not change(array/object)
+
+Date : 18-July-2024
+
+spread operator ::
+
+by using spread operator we can copy of array/object [...Arr1,...arr2] 
+by spread operator when we copy array and the original array value is not changed.
+
+
+
+We're building a Cricket app !
+
+Suppose we get data from a web service about a certain game (below). 
+
+In this challenge we're gonna work with the data. So here are your tasks:
+
+
+1. Create one player array for each team (variables 'players1' and 'players2')
+
+2. The first player in any player array is the wicketkeeper and the others are field players. 
+
+For India (team 1) create one variable ('Ind') with the wicketkeeper name, 
+
+and one array ('fieldPlayers') with all the remaining 10 field players
+
+3. Create an array 'allPlayers' containing all players of both teams (22 players)
+
+4. During the game, India (team 1) used 3 substitute players. So create a new array ('players1Final') 
+
+containing all the original team1 players plus 'Sandeep', 'John' and 'Sunil'
+
+5. Based on the game.odds object, create one variable for each odd (called 'team1', 'draw' and 'team2')
+
+6. The team with the lower odd is more likely to win. 
+
+Print to the console which team is more likely to win, 
+
+WITHOUT using an if/else statement or the ternary operator.
+
+7. Loop over the game.Century array and print each player name to the 
+
+console, along with the Century number (Example: "Century 1: Kohli")
+
+8. Use a loop to calculate the average odd and log it to the console 
+
+Date : 19-July-2024
+|| Jai Shree Ram ||
+
+bank sys ::
+
+Date : 20-July-2024
+|| Jai Shree Ram ||
+
+My Salesforce ORG New :: July 2024
+https://q3technologies-dev-ed.develop.lightning.force.com/lightning/page/home
+
+Email    : gouravbhardwaz@gmail.com
+UserName : gouravbhardwajjune@gmail.com
+Password : Gouravjune@2024,GouravSFDC@2024
+
+
+some, every, reduce?    
+
+https://docs.coinapi.io/market-data/rest-api/exchange-rates/get-specific-rate
+API Key: 833B6AB8-E43F-49B7-98A1-7DC449B17F2E
+
+var request = new RestRequest("https://rest.coinapi.io/v1/exchangerate/BTC/USD", Method.Get);
+
+C:\Users\Admin\Desktop\JaiShreeRam\LWC\July_Ankit\bootcamp\lwc
+
+
+
+|| Jai Shree Ram ||
+21-July-2024
+
+For better debug ::
+1). Enable Debug Mode Users for the user.
+2). Disable Lightning Web Security :: Session Settings -> Lightning Web Security
+-------------------------
+Reuse Component ability ::
+1). css module component (css,mata)
+2). service component (js,Meta)
+-------------------------
+Component Target ::
+App Page
+Record Page
+Home Page
+Flow Screen
+Quick Action
+Community Builder
+-------------------------
+To Apply CSS Child from Parent use of CSS Host Selector in child component
+-------------------------
+Data Binding in LWC is One Way
+JS to HTML - Automatically (1 Way)
+HTML to JS by (manually by event)
+-------------------------
+track decorator point ::
+1). By default property is track if we not define any decorator.
+2). when we are working with array/Object and change "only one" value of array/object 
+    it will not reflect update value in html if we are not define property as track.
+    we should explicitly define track property. 
+3). When we are working with array/Object and change "ALL" one value of array/object 
+    it will work and reflect update value in html if we are not define property as track as well.
+-------------------------
+23-July-2024
+|| Jai Shree Ram ||
+
+ <lightning-formatted-text value={account.name}
+            ></lightning-formatted-text>
+            <lightning-formatted-text value={account.rating}
+            ></lightning-formatted-text>
+            <lightning-formatted-text value={account.industry}
+            ></lightning-formatted-text>
+
+24-July-2024
+|| Jai Shree Ram ||
+
+Debouncing :: do not update the reactive property as long as the function is being called within a delay
+
+LWC Bootcamp Day 29 | Child To Parent Communication in LWC | Custom Events 
+https://www.youtube.com/watch?v=sjqTUQAbS9w&list=PLFe2L4qdtVpYnyuKs0q-eJ7nZLSFTc0nQ&index=30
+
+26-July-2024
+|| Jai Shree Ram ||
+
+Parent to Child Communication ::
+
+</img>
+
+Linked IN integration complete karna hy
+
+submitDeclarationForm
+
+28-July-2024
+|| Jai Shree Ram ||
+
+   <lightning-combobox
+                label="Industry"
+                value={industryValue}
+                placeholder="Select Industry"
+                options={industryPicklist.data.values}
+                onchanange={industryChange}
+            ></lightning-combobox>
+
+
+            003dL000002VUNnQAO
+
+29-July-2024
+|| Jai Shree Ram ||
+
+30-July-2024
+|| Jai Shree Ram ||
+
+https://www.youtube.com/watch?v=W7FrTZGLtRk&list=PLFe2L4qdtVpYnyuKs0q-eJ7nZLSFTc0nQ&index=39
+
+31-July-2024
+|| Jai Shree Ram ||
+
+
+Retrive Code From ORG Command :: sfdx force:source:retrieve -x manifest/package.xml
+
+01-Aug-2024
+|| Jai Shree Ram ||
+
+02-Aug-2024
+|| Jai Shree Ram ||
+
+animatecss
+momentjs
+
+03-Aug-2024
+|| Jai Shree Ram ||
+
+AccountId
+OperationType
+
+Flow Name : Flow_Inside_LWC
+
+Assignment_peration
+
+outputAccountId
+
+Assignment_peration
+
+Outputopertaiontype
+
+
+Account_Rating  
+
+
+
+Accounr_Rating_flow
+
+
+Hot_Account_Rating
+Cold_Account_Rating
+Warm_Account_Rating
+
+https://www.youtube.com/watch?v=2myol9hI28c
+
+https://www.youtube.com/watch?v=8mx753mAogk&list=PLMOcM0aeZQG0K9sF7qtl3Yah_mkUyglmM&index=3
+
+
+
+Ankit Jain 
+https://www.youtube.com/watch?v=XeTd7bo53cM&list=PL-gW8Fj5TGroCy11ia98zMxlA2R8DY1F8
+https://www.youtube.com/watch?v=XeTd7bo53cM&list=PL-gW8Fj5TGroCy11ia98zMxlA2R8DY1F8
+https://www.youtube.com/watch?v=fYysq0wuV3M&list=PL-gW8Fj5TGroCy11ia98zMxlA2R8DY1F8&index=7
+
+05-Aug-2024
+|| Jai Shree Ram ||
+
+
+23-Aug-2024
+|| Jai Shree Ram ||
+
+1.  Create scratch ORG ::
+https://www.youtube.com/watch?v=BOdrQozvgrQ
+
+1. Scratch ORG with scratch org snapshot
+https://www.youtube.com/watch?v=OhHT8Kw0-gI
+
+-----------------------------------
+Steps Create Scratch ORG ::
+1. Create Project with Manifest
+2. Authorize "Dev Hub" --> login and Allow (Also,Enable the Devhub from org)
+3. create scratch org :: sfdx:create default scratch org"
+4. pull source from default org
+5. push source to default org
+
+2. Steps Create Snapshot ORG :: 
+https://www.youtube.com/watch?v=OhHT8Kw0-gI
+1). Create snapshot from scratch ORG :: Source - Scratch ORG and target :: Dev ORG
+
+  command ::  sf org create snapshot --name shotfromscrth --source-org scratch_gourav --target-dev-hub project2 --description 'snapshot of scratchorg'
+2). Update file in config
+3). create scratch org using command ::
+    command :: sf org create scratch --definition-file config/projectsnapshot.json --alias sctestorg --wait 10 --target-dev-hub project2
+
+Use Full Commands ::
+
+1. List of all Org :: sf org list
+2. Open ORG by name :: sf org open -o scratch_gourav
+3.authorized Dev Hub org and set as default ::
+    sfdx force:auth:web:login -a Devhub2 -s
+4. get ORG URL :: sfdx force:org:open -r
+5. open ORG :: sfdx force:org:open
+6. create snapshot ::
+sf org create snapshot --name shotfromscrth --source-org scratch_gourav --target-dev-hub project2 --description 'snapshot of scratchorg'
+7. Get status of snapshot :: 
+sf org get snapshot -s shotfromscrth
+
+-----------------------------------
+
+24-Aug-2024
+|| Jai Shree Ram ||
+
+
+list<contact> contactist = [select id,title,Picture__c,Rank__c from contact];
+for(contact con :contactist){
+    con.Picture__c = 'https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-no-type-logo.svg';
+    if(string.isBlank(con.title)){
+        con.Rank__c =3;
+    }else{
+        con.Rank__c =8;
+    }
+}
+update contactist;
+
+25-Aug-2024
+|| Jai Shree Ram ||
+
+26-Aug-2024
+|| Jai Shree Ram ||
+
+
+27-Aug-2024
+|| Jai Shree Ram ||
+
